@@ -1,4 +1,4 @@
-import pandas as pd
+                                                                                                                import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
@@ -43,7 +43,7 @@ Lin_reg_model.fit(X_train,Y_train)
 
 #prediction on trasaining data
 training_data_prediction = Lin_reg_model.predict(X_train)
-error_score = metrics.r2_score(Y_train , training_data_prediction)
+error_score = metrics.r2_score(Y_train , training_data_prediction)                                                        
 print("R squared Error:", error_score)
 #visualize the actual prices and predict the prices
 plt.scatter(Y_train, training_data_prediction)
